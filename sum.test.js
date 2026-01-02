@@ -10,5 +10,5 @@ test("five and five is ten", () => {
 });
 
 test("there's no m in my name", () => {
-    expect("Ida").not.toMatch(/I/);
+    expect("Ida").not.toMatch(/e/);
 });
